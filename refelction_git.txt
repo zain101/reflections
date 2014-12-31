@@ -1,0 +1,16 @@
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file
+separately?
+A ==> Git provides flexibility of both.
+
+How can you use the commands git log and git diff to view the history of files? 
+A==> git log gives the log of all the commits uptill now . git diff compare the two commit by taking their commit id .
+
+How might using version control make you more confident to make changes that could break something?
+A==> Because GIT allows to be flexible with commit timeline it provides, to revert  to the changes in past where things were great. 
+     git cheokout id allows to go into the past and future of time (note : please save the resent commit ID)
+
+Now that you have your workspace set up, what do you want to try using Git for?
+A==? for current project.
+
+
