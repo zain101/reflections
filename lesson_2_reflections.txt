@@ -4,3 +4,24 @@ A==> It creates a .git folder which comtains the meta data about repo .
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 A==> It is a temoprary area in which the files need to commited are addded . it offers an intermidiatory stage.
 
+How can you use the staging area to make sure you have one commit per logical change?
+A==> small typos or such can be added in stagging area till a big changes is made by its collection  and then it can commited as a logical one.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A==> Branches would be really helpfull when i want to divide my basic code as
+    foundation and add new features as differrent extentions and different logic
+    which depends on the foundation code. like context switch and master is
+    production ready and other can break.
+
+How do the diagrams help you visualize the branch structure?
+A==> 'git log --graph --online master easy-mode coins'  help to understand the
+    workflow and the structure of project in a timeline.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A==> both the branch combine to from a single branch i;e master commits from
+    both the branch remains intact and are arranged using their time-line,
+    diagram helps to easily graps the Idea.
+   
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?   
+A==> Automatic merging can cause unpleasent consecuences , thus manual merges
+     are preferred   over automatic .
